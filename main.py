@@ -62,7 +62,7 @@ def train(data, X, Y, model, criterion, optim, batch_size):
 
 
 parser = argparse.ArgumentParser(description='PyTorch Time series forecasting')
-parser.add_argument('--data', type=str, default='data/exchange_rate/exchange_rate.txt',
+parser.add_argument('--data', type=str, default='data/exchange_rate.txt',
                     help='location of the data file')  # required=True,
 parser.add_argument('--model', type=str, default='LSTNet',
                     help='')
